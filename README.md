@@ -33,4 +33,5 @@
 
 参考资料：
 	https://github.com/lisa-lab/DeepLearningTutorials
+	
 	Y. Bengio, P. Lamblin, D. Popovici, H. Larochelle: Greedy Layer-Wise Training of Deep Networks, Advances in Neural Information Processing Systems 19, 2007
