@@ -1,0 +1,31 @@
+基于RBM的深度学习算法
+========
+
+基于多层RBM模型，实现二分类学习算法。
+
+
+
+功能框架：
+
+	DBN.py：深度学习主框架，包括数据输入、输入sigmoid转换，RBM层堆叠，softmax层输出。
+
+	RBM.py：RBM层框架，包括gibss采样、交叉熵误差验证
+	
+	dA.py:这个是降噪自动编码器，目前还在研究
+	
+	SdA.py:，堆叠降噪自动编码器，目前仍在研究
+	
+	HiddenLayer.py:隐层主要是权值计算与更新
+	
+	util.py：这主要是最后的softmax函数计算及输出
+	
+	normal_8.py：输入数据归一化到[0,1]
+	
+
+后续工作：
+	
+	后续需要研究的是在特征多而稀疏时，利用dA模型来进行训练，然后与RBM模型对比。
+	
+
+参考资料：
+	https://github.com/lisa-lab/DeepLearningTutorials
